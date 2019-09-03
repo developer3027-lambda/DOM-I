@@ -87,7 +87,22 @@ topInfo[0].textContent = 'Features content elementum magna eros, ac posuere elvi
 //set the about p text
 topInfo[1].textContent = 'About content elementum magna eros, ac posuere elvit tempus et. Suspendisse vel tempus odio, in interdutm nisi. Suspendisse eu ornare nisl. Nullam convallis augue justo, at imperdiet metus scelerisque quis.';
 
+//Accent img *************************************************
 //get the img in main section
 const mainImg1 = document.querySelector('#middle-img');
 //set the accent img in main section
 mainImg1.setAttribute('src','img/mid-page-accent.jpg');
+
+//Bottom section ************************************************
+//get the h4 of the section in an node list
+const bottomH4 = document.querySelectorAll('.bottom-content h4');
+//get the p tag of the section in an node list
+const bottomInfo = document.querySelectorAll('.bottom-content p');
+//set the text of H tags in section
+bottomH4[0].textContent = 'Services';
+bottomH4[1].textContent = 'Product';
+bottomH4[2].textContent = 'Vision';
+//set the p tags of each 
+bottomInfo[0].textContent = 'Services content elementum magna eros, ac posuere elvit tempus et. Suspendisse vel tempus odio, in interdutm nisi. Suspendisse eu ornare nisl. Nullam convallis augue justo, at imperdiet metus scelerisque quis.';
+bottomInfo[1].textContent = 'Product content elementum magna eros, ac posuere elvit tempus et. Suspendisse vel tempus odio, in interdutm nisi. Suspendisse eu ornare nisl. Nullam convallis augue justo, at imperdiet metus scelerisque quis.';
+bottomInfo[2].textContent = 'Vision content elementum magna eros, ac posuere elvit tempus et. Suspendisse vel tempus odio, in interdutm nisi. Suspendisse eu ornare nisl. Nullam convallis augue justo, at imperdiet metus scelerisque quis.';
