@@ -127,3 +127,25 @@ contactInfo[2].textContent = 'sales@greatidea.io';
 const footer = document.querySelector('footer p');
 //set the info in footer
 footer.textContent = 'Copyright Great Idea! 2018';
+
+//nav color ***************************************************
+
+//nav button **************************************************
+const navBar = document.querySelector('nav');
+const lastNav = document.createElement('a');
+lastNav.href = '#!';
+lastNav.textContent = 'Last Item';
+lastNav.style.color = 'teal';
+lastNav.style.textDecoration = 'none';
+
+navBar.appendChild(lastNav);
+
+const firstNav = document.createElement('a');
+firstNav.href = '#!';
+firstNav.textContent = 'First Item';
+firstNav.style.color = 'teal';
+firstNav.style.textDecoration = 'none';
+
+navBar.prepend(firstNav);
+
+navBar.style.backgroundColor = "lightgreen";
