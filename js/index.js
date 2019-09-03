@@ -106,3 +106,20 @@ bottomH4[2].textContent = 'Vision';
 bottomInfo[0].textContent = 'Services content elementum magna eros, ac posuere elvit tempus et. Suspendisse vel tempus odio, in interdutm nisi. Suspendisse eu ornare nisl. Nullam convallis augue justo, at imperdiet metus scelerisque quis.';
 bottomInfo[1].textContent = 'Product content elementum magna eros, ac posuere elvit tempus et. Suspendisse vel tempus odio, in interdutm nisi. Suspendisse eu ornare nisl. Nullam convallis augue justo, at imperdiet metus scelerisque quis.';
 bottomInfo[2].textContent = 'Vision content elementum magna eros, ac posuere elvit tempus et. Suspendisse vel tempus odio, in interdutm nisi. Suspendisse eu ornare nisl. Nullam convallis augue justo, at imperdiet metus scelerisque quis.';
+
+//Contact Section *******************************************
+//get the contact h tag
+const contactH4 = document.querySelector('.contact h4');
+//get contact p tag in node list
+const contactInfo = document.querySelectorAll('.contact p');
+
+//set the h4 text
+contactH4.textContent = 'Contact';
+//set the 1st p tag
+contactInfo[0].textContent = '123 Way 456 Street Somewhere, USA';
+//set the 2nd p tag
+contactInfo[1].textContent = '1 (888) 888-8888';
+//set the 3rd p tag
+contactInfo[2].textContent = 'sales@greatidea.io';
+
+//footer *****************************************************
