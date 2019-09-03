@@ -58,6 +58,7 @@ aNav[3].textContent = 'Features';
 aNav[4].textContent = 'About';
 aNav[5].textContent = 'Contact';
 
+//Header section *************************************
 //get cta img and assign to variable
 const ctaImg = document.querySelector('#cta-img');
 //replace the cta img
@@ -70,3 +71,23 @@ ctaInfoH1.textContent = 'DOM Is Awesome';
 const ctaButtonTxt = document.querySelector('.cta-text button');
 //set the button text
 ctaButtonTxt.textContent = 'Get Started';
+
+//Top Section *********************************************
+//get the h4 of the section in an node list
+const topH4 = document.querySelectorAll('.top-content h4');
+//set the features h4 in index 0
+topH4[0].textContent = 'Features';
+//set the about h4 in index 1
+topH4[1].textContent = 'About';
+
+//get the p tag of the top section in node list
+const topInfo = document.querySelectorAll('.top-content p');
+//set the features p text
+topInfo[0].textContent = 'Features content elementum magna eros, ac posuere elvit tempus et. Suspendisse vel tempus odio, in interdutm nisi. Suspendisse eu ornare nisl. Nullam convallis augue justo, at imperdiet metus scelerisque quis.';
+//set the about p text
+topInfo[1].textContent = 'About content elementum magna eros, ac posuere elvit tempus et. Suspendisse vel tempus odio, in interdutm nisi. Suspendisse eu ornare nisl. Nullam convallis augue justo, at imperdiet metus scelerisque quis.';
+
+//get the img in main section
+const mainImg1 = document.querySelector('#middle-img');
+//set the accent img in main section
+mainImg1.setAttribute('src','img/mid-page-accent.jpg');
