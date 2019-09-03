@@ -58,3 +58,15 @@ aNav[3].textContent = 'Features';
 aNav[4].textContent = 'About';
 aNav[5].textContent = 'Contact';
 
+//get cta img and assign to variable
+const ctaImg = document.querySelector('#cta-img');
+//replace the cta img
+ctaImg.setAttribute('src','img/header-img.png');
+//get the header h1 text
+const ctaInfoH1 = document.querySelector('.cta-text h1');
+//set the header h1 text
+ctaInfoH1.textContent = 'DOM Is Awesome';
+//get the header button
+const ctaButtonTxt = document.querySelector('.cta-text button');
+//set the button text
+ctaButtonTxt.textContent = 'Get Started';
