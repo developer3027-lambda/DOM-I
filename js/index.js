@@ -123,3 +123,7 @@ contactInfo[1].textContent = '1 (888) 888-8888';
 contactInfo[2].textContent = 'sales@greatidea.io';
 
 //footer *****************************************************
+//get the footer info
+const footer = document.querySelector('footer p');
+//set the info in footer
+footer.textContent = 'Copyright Great Idea! 2018';
