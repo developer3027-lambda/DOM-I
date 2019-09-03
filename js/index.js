@@ -40,3 +40,21 @@ const siteContent = {
 // Example: Update the img src for the logo
 let logo = document.getElementById("logo-img");
 logo.setAttribute('src', siteContent["nav"]["img-src"])
+
+//get all the anchor tags on the document
+document.getElementsByTagName('a');
+
+//get all the anchor tags on the document
+document.querySelectorAll('a');
+
+//set the nav anchor tags to a variable
+const aNav = document.querySelectorAll('nav a');
+
+//Use new nav variable to set text in nav anchor
+aNav[0].textContent = 'Services';
+aNav[1].textContent = 'Product';
+aNav[2].textContent = 'Vision';
+aNav[3].textContent = 'Features';
+aNav[4].textContent = 'About';
+aNav[5].textContent = 'Contact';
+
